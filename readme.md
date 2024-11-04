@@ -32,6 +32,6 @@ How to Use
 
 1-Clone the repository using the following command:
 git clone repo\_https://github.com/ShankarSS6/mini-project
-avigate to the project directory:
-2-cd mini project
+2-Navigate to the project directory:
+cd mini project
 Run the game by opening the index.html file in a web browser.
