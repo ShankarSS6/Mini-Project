@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    display: flex;
+    margin-top: 400px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    width: 900px;
+    height: 900px;
+  }
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: steelblue;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: wheat;
+  border-radius: 50px;
+  /* padding: 40px 100px; */
+}
+h1 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transform-style: preserve-3d;
+  perspective: 550px;
+}
+
+.points {
+  display: flex;
+}
+img {
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+}
+
+.reset {
+  padding: 15px 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: progress;
+  color: black;
+  font-weight: 500;
+}
+
+.reset:hover {
+  color: red;
+  background: turquoise;
+}
